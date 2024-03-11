@@ -293,12 +293,13 @@ These are the extensions I have and use (that are not built into Raycast):
 
 ### Other Apps
 - [Discord](https://discord.com)
+- [Spark](https://sparkmailapp.com/) -> I use the free version to easiliy sync my emails between devices. Works better than Outlook and just as good as [Newton Mail](https://newtonhq.com/) used to when they actually supported their app. I prefer Newton Mail for the read receipts but I can't justify paying $50/year for something that is barely supported. I mean just look at their "[Community](https://community.newtonhq.com/)". It is sad.
 - [GIMP](https://gimp.org) -> This is a free alternative to photoshop. I don't use it often but when I need it, I have it.
 - [WebStorm](https://jetbrains.com/webstorm) -> I use this instead of Visual Studio Code because it functions better and the code formatting works better. For some reason I always have issues with Prettier on Visual Studio Code. I also have noticed that VSC tends to eat RAM for breakfast similar to what Microsoft Edge does so it causes my PC (specifically that) to run worse.
 - [Visual Studio](https://visualstudio.microsoft.com) -> I use this for my backend programming.
 - [VLC](https://videolan.org) -> I use VLC to watch videos instead of the built-in Quick Time or Windows Media Player.
 - [7-Zip](https://7-zip.org) for Windows & [keka](https://keka.io/en) for Mac -> Both allow me to unzip 7-Zip files as well as RAR files and other types as well.
-- Slack -> For work messaging
+- Microsoft Teams -> For work messaging
 - [Arc](https://arc.com) is my browser of choice on Mac. You can read about it on [App Seeker](https://appseeker.org)
 - [Obsidian](https://obsidian.md) -> This is my notetaking app of choice. I sync my vault between devices using both GitHub and an external 2TB M.2 SSD.
 
@@ -310,7 +311,8 @@ slack
 gimp
 vlc
 keka
-visual-studio-code
+readdle-spark
+microsoft-teams
 arc
 ```
 
