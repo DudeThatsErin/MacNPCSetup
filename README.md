@@ -1,6 +1,8 @@
 # Erin's Mac & Windows PC Setup for Full Stack Development
 You can `CTRL + F` to find your way through this guide. I have split it up between my Windows PC and my Mac.
 
+> ***NOTE:*** None of the links included to apps or devices I use are affiliate links. I'm not looking to make money, just provide informative info to anyone who wants it.
+
 ## What Computers do I have?
 ### Windows PC
 I have an older iBuyPower PC that I regret buying now. It has the following specs:
