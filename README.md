@@ -7,7 +7,7 @@ I have an older iBuyPower PC that I regret buying now. It has the following spec
 - i7 7th Gen
 - NVIDIA Geforce 2080TI
 - 12GB DDR4 RAM
-- 4TB HDDs (some I added after the fact)
+- 750GB between 2 SSDs (250GB SSD has OS) (500GB SSD has extra files) + 2TB HDDs
 
 My husband has a custom-built PC that I will be adopting when he upgrades. When I do those specs are as follows:
 - i9 12th Gen
@@ -24,10 +24,11 @@ I got a 2023 MacBook Pro from work and the specs are as follows:
 
 ### Peripherals
 - [Logitech MX Craft Keyboard](https://www.logitech.com/en-us/products/keyboards/craft.920-008484.html)
-  - I like it, but I recommend the [Logitech MX Keys S](https://www.logitech.com/en-us/products/keyboards/mx-keys-s.920-011559.html), the dial on the craft isn't that useful. I only got the craft to replace my MX Keys cause the battery doesn't last for very long, but I may go back to my MX Keys anyway.
+  - I like it, but I recommend the [Logitech MX Keys S](https://www.logitech.com/en-us/products/keyboards/mx-keys-s.920-011559.html), the dial on the craft isn't that useful. I only got the craft to replace my MX Keys cause the battery doesn't last for very long though I switch back and forth between the keyboards all the time.
 - [Logitech Master 3](https://www.amazon.com/Logitech-Master-Advanced-Wireless-Mouse/dp/B07XC2FWD1) which I recommend over the 3S as they are virtually the same thing and you can get this one for cheaper.
 - 2TB M.2 SSD that I use as an external storage solution for both computers
-- Old LG 27" 4k Monitor - will be replaced soon with an Alienware 27" 1080p monitor cause my LG is having horrible image retention issues.
+- Old LG 27" 4k Monitor
+- Newer 1080p 27" Razor Monitor
 
 ## MacOS Setup
 ### Homebrew / Terminal / Shell
@@ -204,33 +205,37 @@ When I am first setting up my Windows PC I set it up with the least amount of re
 
 ## Apps I install/use once setup
 - Browser
-  - It will be [Arc](https://appseeker.org/arc) once released on Windows until then I use [Microsoft Edge](https://appseeker.org/edge).
+  - I attempted to use [Arc](https://appseeker.org/dudethatserin/Arc-9ccf1de38481400e9aeab18fc33d3ebc?pvs=25) but I couldn't get logged in/registered and their discord server was no help. They never contacted me back via support either. So, while I use Arc on my Mac... On Windows, I use [Google Chrome](https://appseeker.org/dudethatserin/Chrome-805361ee66f64cb9a1208bbaafc4b2b7?pvs=25) since it is easy to install and it doesn't chew up RAM as much as [Microsoft Edge](https://appseeker.org/dudethatserin/Edge-2bef5ebf82974be9b562fd3472a7e6e5?pvs=25) did on my PC.
 - Shell
   - Powershell
 - Misc
-  - [PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/)
-    - Owned by Microsoft now and it enables tons of utilities that are not possible out of the box on Windows. My favorites are the `FancyZones`, `File Explorer add-ons`, `Environment Variables` and `Color Picker`
-  - EA App (I play The Sims)
-  - Steam (I love Age of Empires IV)
+  - Steam to play Palworld & Age of Empires IV.
+  - ShareX for screenshots
+  - Obsidian for notes
+  - Spark for Email
 
 I don't do much customization on my Windows PC.
 
 # Productivity & Other Apps
 
-## Window Management
-This is somewhat built-into Windows and not at all built-into MacOS. I still install an app on both platforms to manage windows easeier.
+## Window Management - MacOS
+On Windows I use the built-in app switch so this is focusing on Mac.
 
-### MacOS - Rectangle
+### Rectangle
 I use the app called [rectangle](https://rectangleapp.com) to move and resize windows using keyboard shortcuts. I highly recommend install this **free** app and memorizing hte keyboard shortcuts. It is fluid and seamless.
 
 ```shell
 brew install rectangle
 ```
 
-### Windows PC - PowerToys
-I use the app [PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/) and its `FancyZones` to set up zones, so I can easily set up common window sizes, so I can split windows easier.
+####  Raycast
+This is an app I go over a lot more later but Raycast also has built-in window management.
 
-## App Switching
+```shell
+brew install raycast
+```
+
+## App Switching - MacOS
 On Windows I use the built-in app switch so this is focusing on Mac.
 
 I use an app switcher that is **free** called [AltTab](https://alt-tab-macos.netlify.app). It shows the full window previews just like how Windows show them when you `CMD + TAB`.
@@ -244,20 +249,18 @@ brew install alt-tab
 For both Windows and Mac I use custom screenshotting tools as the built-in options do not offer as many features. You can use them if you want but these options give you more features.
 
 ### MacOS
-I use [CleanShot X](https://cleanshot.com) as it provides 1GB of storage, ability to copy screenshots to your keyboard and more. It works very similarly to the iOS Screenshot tool. It is a paid app though the $29.99 USD price of the lifetime purchase that comes with 1 year of updates (you can renew after that year) is a fantastic price.
-
-I don't need to upload my screenshots to the cloud frequently, so I can't justify the monthly/yearly subscription cost.
+I use the built-in screenshotting tool. I used to use [Clean Shot X](https://cleanshot.com/) but I couldn't justify the cost (even for the $30 lifetime) when the built-in options for Mac are good enough.
 
 ### Windows
 I use [ShareX](https://getsharex.com) to take screenshots. It also works just like the iOS Screenshot tool. I prefer the way the iOS Screenshot tool works (if you can't tell) as you don't have to download screenshots that you don't need for longer than 2 seconds that just take up needless space on your storage.
 
+The **only** reason why I don't use the built-in tool is because ShareX is free. It doesn't do much that I can't do with the Clipping Tool.
+
 ## Task Management
-I alternate between [Todoist](https://todoist.com) and [Things 3](https://culteredcode.com). Things 3 is a great app but it has shortcomings. I talk about them on my website, [App Seeker](https://appseeker.org). You can go through to read about each of them.
+I alternate between [Todoist](https://todoist.com) and [Things 3](https://culteredcode.com). Things 3 is a great app but it has shortcomings. I talk about them on my website, [App Seeker](https://appseeker.org). You can go through to App Seeker to read about each of them.
 
 ## Quick Launching
-This only applies to Mac because Windows already has a "Quick Launcher" with the search built into the start bar.
-
-The built-in spotlight search is a bit slow and doesn't have as many features as the search I use to replace it.
+This only applies to Mac because Windows already has a "Quick Launcher" with the search built into the start bar, though it isn't anywhere near as good as Spotlight on Apple devices. Though the built-in spotlight search is a bit slow and doesn't have as many features as the search I use to replace it.
 
 There are 2 options you can use. [Alfred](https://www.alfredapp.com) and [Raycast](https://raycast.com). 
 
@@ -277,7 +280,6 @@ These are the extensions I have and use (that are not built into Raycast):
 - Arc -> Search and quickly navigate Arc's history and open tabs.
 - Brew -> Search and install Homebrew formulae.
   - Make sure to go into settings and enable the "Remove all files associated with a cask" that way extra files don't get leftover when you uninstall apps/casks.
-- CleanShotX -> Allows me to use Raycast to take screenshots. I don't use this much because I tied the usual `CMD + SHIFT + 4` to Raycast.
 - Color Picker -> Pick and organize colors, everywhere on your Mac.
 - Create Quick Event -> Allows me to use natural language to create a new event in my calendar.
 - Kill Process -> Allows me to kill processes that may be stuck on my computer.
@@ -290,15 +292,15 @@ These are the extensions I have and use (that are not built into Raycast):
 ### Other Apps
 - [Discord](https://discord.com)
 - [GIMP](https://gimp.org) -> This is a free alternative to photoshop. I don't use it often but when I need it, I have it.
-- [WebStorm](https://jetbrains.com/webstorm) -> I use this instead of Visual Studio Code because it functions better and the code formatting works better. For some reason I always have issues with Prettier on Visual Studio Code.
+- [WebStorm](https://jetbrains.com/webstorm) -> I use this instead of Visual Studio Code because it functions better and the code formatting works better. For some reason I always have issues with Prettier on Visual Studio Code. I also have noticed that VSC tends to eat RAM for breakfast similar to what Microsoft Edge does so it causes my PC (specifically that) to run worse.
 - [Visual Studio](https://visualstudio.microsoft.com) -> I use this for my backend programming.
 - [VLC](https://videolan.org) -> I use VLC to watch videos instead of the built-in Quick Time or Windows Media Player.
 - [7-Zip](https://7-zip.org) for Windows & [keka](https://keka.io/en) for Mac -> Both allow me to unzip 7-Zip files as well as RAR files and other types as well.
 - Slack -> For work messaging
-- [Arc](https://arc.com) is my browser of choice on Mac. It will be on Windows in 2024. You can read about it on [App Seeker](https://appseeker.org)
-- [Obsidian](https://obsidian.md) -> This is my notetaking app of choice. I sync my vault between devices using both GitHub and an external 2TB SSD.
+- [Arc](https://arc.com) is my browser of choice on Mac. You can read about it on [App Seeker](https://appseeker.org)
+- [Obsidian](https://obsidian.md) -> This is my notetaking app of choice. I sync my vault between devices using both GitHub and an external 2TB M.2 SSD.
 
-You can install these either by searching them with the Brew Extension or by adding this list of files to a apps.txt on your desktop to install these with Brew on MacOS
+You can install *most of* these either by searching them with the Brew Extension or by adding this list of files to a apps.txt on your desktop to install these with Brew on MacOS:
 
 ```shell
 discord
@@ -318,7 +320,24 @@ Run the following command on Mac to install the items with brew if you stored th
 xargs brew install < apps.txt
 ```
 
-Windows users can use Chocolatey to install a similar way , and then you are good to go.
+Windows users can use Chocolatey to install a similar way, and then you are good to go. Though I use [Chris Titus' Windows Utility](https://github.com/ChrisTitusTech/winutil) to manage these kinds of programs. It is super easy to run and use.
+
+You can run it in one of the following ways:
+```shell
+iwr -useb https://christitus.com/win | iex
+```
+OR
+```shell
+irm https://christitus.com/win | iex
+```
+Courtesy of the issue raised at: [#144](https://github.com/ChrisTitusTech/winutil/issues/144)
+
+if for some reason this site is not reachable from your country please try running it directly from github
+```shell
+irm https://raw.githubusercontent.com/ChrisTitusTech/winutil/main/winutil.ps1 | iex
+```
+
+If these don't work, please check his repo as the commands probably got updated and I haven't had a chance to update them here yet.
 
 # MacOS Menu Bar Customizations
 ## Calendar on Menu Bar
