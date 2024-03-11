@@ -21,7 +21,7 @@ My husband has a custom-built PC that I will be adopting when he upgrades. When 
 I got a 2023 MacBook Pro from work and the specs are as follows:
 - Apple M3 Max Chip
 - 16" Retina Display
-- 48GB RAM
+- 36GB RAM
 - 1TB M.2 SSD
 
 ### Peripherals
