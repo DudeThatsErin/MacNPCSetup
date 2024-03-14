@@ -20,7 +20,7 @@ My husband has a custom-built PC that I will be adopting when he upgrades. When 
 ### Mac
 I got a 2023 MacBook Pro from work and the specs are as follows:
 - Apple M3 Max Chip
-- 16" Retina Display -> Possibly? I'll update this tomorrow/Wednesday to confirm #todo
+- 14" Retina Display
 - 36GB RAM
 - 1TB M.2 SSD
 
@@ -307,13 +307,16 @@ You can install *most of* these either by searching them with the Brew Extension
 
 ```shell
 discord
-slack
 gimp
 vlc
 keka
 readdle-spark
 microsoft-teams
 arc
+raycast
+itsycal
+git
+alt-tab
 ```
 
 Any apps not listed above cannot be installed with Brew and have to be downloaded from their websites.
@@ -348,7 +351,7 @@ If these don't work, please check his repo as the commands probably got updated 
 I use itsycal on my menu bar to get my calendar to show up there. 
 
 ```shell
-brew install itsycall
+brew install itsycal
 ```
 Or use Raycast's Brew Extension to install it.
 
