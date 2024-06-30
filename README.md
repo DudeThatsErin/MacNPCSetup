@@ -20,7 +20,7 @@ My husband has a custom-built PC that I will be adopting when he upgrades. When 
 ### Mac
 I got a 2023 MacBook Pro from work and the specs are as follows:
 - Apple M3 Max Chip
-- 14" Retina Display
+- 16" Retina Display
 - 36GB RAM
 - 1TB M.2 SSD
 
@@ -28,11 +28,33 @@ I got a 2023 MacBook Pro from work and the specs are as follows:
 - [Logitech MX Craft Keyboard](https://www.logitech.com/en-us/products/keyboards/craft.920-008484.html)
   - I like it, but I recommend the [Logitech MX Keys S](https://www.logitech.com/en-us/products/keyboards/mx-keys-s.920-011559.html), the dial on the craft isn't that useful. I only got the craft to replace my MX Keys cause the battery doesn't last for very long though I switch back and forth between the keyboards all the time.
 - [Logitech Master 3](https://www.amazon.com/Logitech-Master-Advanced-Wireless-Mouse/dp/B07XC2FWD1) which I recommend over the 3S as they are virtually the same thing and you can get this one for cheaper.
+  - I got the 3S for work and I can confirm they are exactly the same. I don't notice ANY difference between the 2. Go with the MX Keys & Master 3 as they are cheaper and EXACTLY the same as the 3s and Keys S.
 - 2TB M.2 SSD that I use as an external storage solution for both computers
-- Old LG 27" 4k Monitor
-- Newer 1080p 27" Razor Monitor
+- LG 55" 4K TV with an Apple TV Connected.
+  - We have 2 of these TVs 1 model year apart. I believe they are 2021 and 2022. We have 2 Apple TVs. One is the latest model that just came in on July 1. 64GB 4k version. Our older one we got in 2021 and it is a 32GB 4K Apple TV.
 
 ## MacOS Setup
+### Basic Apps
+This is a quick list of the apps I use on my Mac.
+
+- GitHub Desktop
+- Safari
+  - I don't like Arc because you can't open separate windows for things so using multiple monitors is a no-go with it. Chrome harvests too much data and uses too much RAM so I use Safari.
+- Apple Mail / Spark
+  - I haven't decided on which one I want to use so for now, I am using both.
+- Apple Notes for Notes
+- WP Engine Local to keep our sites up-to-date.
+- Trello for work tasks and notes as well as personal projects. I use the free version as there is nothing in premium that is necessary for me since I don't share.
+- AirTable for tasks that are shared at work. My employer uses AirTable to keep everything up-to-date.
+- Harvest to keep track of time spent on work projects for billing purposes.
+- Raycast as this is my spotlight app of choice.
+- Freeform for notes while I'm learning math.
+- Apple Reminders for tasks in my personal life.
+- Apple Calendar to keep track of meetings for work.
+- Warp for a terminal replacement.
+- Discord for Social Media.
+- VSCode for coding.
+
 ### Homebrew / Terminal / Shell
 #### Homebrew
 [Homebrew](https://brew.sh) allows us to install tools and apps from the command line or via Raycast (my usual install method).
@@ -128,66 +150,9 @@ Once installed, launch it and customized the settings/preferences to your liking
       - Workflows
         - Show global workflows in command search (`CTRL + R`): Disabled
 
-#### Shell
-Mac now comes with `zsh` as the default [shell](https://en.wikipedia.org/wiki/Comparison_of_command_shells). `bash` is my preferred shell. As it is used on all Linux devices and it is the one I am most familiar with.
 
-If you are a beginner, you don't need to replace your shell with `bash`. If you are going to stick with `zsh`, check out [Oh My Zsh](https://ohmyz.sh/) which gives you a bunch of customizations out of the box.
 
-##### Install Bash and set it as the default
-To see what shell is currently your default, run:
-```shell
-echo $SHELL
-```
-
-To install the latest version of bash:
-```shell
-brew install bash
-```
-
-Then, determine where bash got installed:
-```shell
-which bash
-```
-
-We now need to add this to our `/etc/shells` file at the top so we can set it as our default shell.
-Run the following command to open the `/etc/shells` file in `nano` (a command line text editor) with superuser privileges (you will need to so you can type and save the file):
-```shell
-sudo nano /etc/shells
-```
-
-Enter your password and add the location of bash above the other items there.
-
-Command explained:
-
-* [`sudo`](https://en.wikipedia.org/wiki/Sudo) is a way of running a command with `super user` privileges.
-* [`nano`](https://en.wikipedia.org/wiki/GNU_nano) is an easy to use command line editor. As opposed to [`vi` or `vim`](https://en.wikipedia.org/wiki/Vim_(text_editor)).
-* `/etc/shells` is the file we need to edit / update.
-
-Press `CTRL + O` to save the file and then press enter.
-Then press `CTRL + X` to close the file.
-
-Now run the following command to set it as your default shell:
-```shell
-chsh -s BASHLOCATION
-```
-
-Replace `BASHLOCATION` with the location from `which bash` which you ran earlier.
-
-You can run the following command to confirm your shell has changed:
-```shell
-echo $SHELL
-```
-
-I recommend opening a new tab in your terminal editor of choice and running this command again to confirm.
-
-## Install the latest version of `git`
-I'm not sure which version of `git` my MacBook Pro came with but I recommend installing the latest version anyway.
-
-I recommend using brew to install the latest version of `git`:
-```shell
-brew install git
-```
-
+### Git Setup
 Open a new tab/window to start using the latest version:
 ```shell
 git --version
@@ -202,6 +167,12 @@ git config --global user.email erin@null.computer
 git config --global core.editor nano
 ```
 
+### NPM/Node/NVM Setup
+I use node/npm to maintain my github repos and to install items while I am working. NVM is used to keep Node up to date.
+
+### PHP Setup
+I use PHP in my day job (which the Mac is for) and I use it for yarn and to install roots/sage and build our projects. I use PHP 8.3 which is the current latest version. We run these websites via WP Engine's Local desktop app.
+
 # Windows PC Setup
 When I am first setting up my Windows PC I set it up with the least amount of reporting back to Microsoft as possible. I do login to my Microsoft/Outlook account.
 
@@ -213,7 +184,6 @@ When I am first setting up my Windows PC I set it up with the least amount of re
 - Misc
   - Steam to play Palworld & Age of Empires IV.
   - ShareX for screenshots
-  - Obsidian for notes
   - Spark for Email
 
 I don't do much customization on my Windows PC.
