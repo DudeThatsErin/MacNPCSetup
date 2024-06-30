@@ -193,13 +193,6 @@ I don't do much customization on my Windows PC.
 ## Window Management - MacOS
 On Windows I use the built-in app switch so this is focusing on Mac.
 
-### Rectangle
-I use the app called [rectangle](https://rectangleapp.com) to move and resize windows using keyboard shortcuts. I highly recommend install this **free** app and memorizing hte keyboard shortcuts. It is fluid and seamless.
-
-```shell
-brew install rectangle
-```
-
 ####  Raycast
 This is an app I go over a lot more later but Raycast also has built-in window management.
 
@@ -229,7 +222,7 @@ I use [ShareX](https://getsharex.com) to take screenshots. It also works just li
 The **only** reason why I don't use the built-in tool is because ShareX is free. It doesn't do much that I can't do with the Clipping Tool.
 
 ## Task Management
-I alternate between [Todoist](https://todoist.com) and [Things 3](https://culteredcode.com). Things 3 is a great app but it has shortcomings. I talk about them on my website, [App Seeker](https://appseeker.org). You can go through to App Seeker to read about each of them.
+I alternate between [Todoist](https://todoist.com), Apple Reminders, and [Things 3](https://culteredcode.com). Things 3 is a great app but it has shortcomings. I talk about them on my website, [App Seeker](https://appseeker.org). You can go through to App Seeker to read about each of them.
 
 ## Quick Launching
 This only applies to Mac because Windows already has a "Quick Launcher" with the search built into the start bar, though it isn't anywhere near as good as Spotlight on Apple devices. Though the built-in spotlight search is a bit slow and doesn't have as many features as the search I use to replace it.
@@ -249,29 +242,35 @@ If you type in `extenisons` into the search you can see all of your extenions an
 
 These are the extensions I have and use (that are not built into Raycast):
 
-- Arc -> Search and quickly navigate Arc's history and open tabs.
+- Apple Notes -> Search & Create notes within Apple Notes.
+- Apple Reminders -> Manage Apple Reminders: Create Reminders, see Reminders in your Menu Bar and more.
 - Brew -> Search and install Homebrew formulae.
   - Make sure to go into settings and enable the "Remove all files associated with a cask" that way extra files don't get leftover when you uninstall apps/casks.
+- Calculator -> I do calculations in Raycast most of the time.
+- Clean Keyboard -> Disables the keyboard so you can clean it.
 - Color Picker -> Pick and organize colors, everywhere on your Mac.
 - Create Quick Event -> Allows me to use natural language to create a new event in my calendar.
+- Google Search -> Allows me to do a Google Search in the menu bar.
+- Pomodoro -> This is a way for me to have Pomo timers in my menu bar.
 - Kill Process -> Allows me to kill processes that may be stuck on my computer.
-- Obsidian -> Allows me to control Obsidian with Raycast.
 - Remove Paywall -> Allows me to remove paywalls from links.
-- Omnivore -> Allows me to control Omnivore from Raycast.
-- Things/Todoist -> Depending on the Task App I'm using depends on which one I have installed. I always display the top To Do in my menu bar to help keep me on task.
+- Safari -> Allows me to see all of my tabs open in Safari as well as my Reading List and History.
+- Tailwind CSS -> I use Tailwind CSS at work and this makes it easy to look up items.
+- System Monitor -> Just what the name is.
+- Speedtest
+- Warp -> Allows me to see my warp tabs/windows.
 - Timers - Allows me to set timers. I use this for the Pomodoro technique which I don't use often but I use it when my ADHD gets really bad.
 
 ### Other Apps
 - [Discord](https://discord.com)
 - [Spark](https://sparkmailapp.com/) -> I use the free version to easiliy sync my emails between devices. Works better than Outlook and just as good as [Newton Mail](https://newtonhq.com/) used to when they actually supported their app. I prefer Newton Mail for the read receipts but I can't justify paying $50/year for something that is barely supported. I mean just look at their "[Community](https://community.newtonhq.com/)". It is sad.
 - [GIMP](https://gimp.org) -> This is a free alternative to photoshop. I don't use it often but when I need it, I have it.
-- [WebStorm](https://jetbrains.com/webstorm) -> I use this instead of Visual Studio Code because it functions better and the code formatting works better. For some reason I always have issues with Prettier on Visual Studio Code. I also have noticed that VSC tends to eat RAM for breakfast similar to what Microsoft Edge does so it causes my PC (specifically that) to run worse.
+- Visual Studio Code -> I use VSCodium as it is the same thing without Microsoft's tracking.
 - [Visual Studio](https://visualstudio.microsoft.com) -> I use this for my backend programming.
 - [VLC](https://videolan.org) -> I use VLC to watch videos instead of the built-in Quick Time or Windows Media Player.
 - [7-Zip](https://7-zip.org) for Windows & [keka](https://keka.io/en) for Mac -> Both allow me to unzip 7-Zip files as well as RAR files and other types as well.
-- Microsoft Teams -> For work messaging
-- [Arc](https://arc.com) is my browser of choice on Mac. You can read about it on [App Seeker](https://appseeker.org)
-- [Obsidian](https://obsidian.md) -> This is my notetaking app of choice. I sync my vault between devices using both GitHub and an external 2TB M.2 SSD.
+- Slack -> For work messaging
+- Safari on Mac & Google Chrome on Windows.
 
 You can install *most of* these either by searching them with the Brew Extension or by adding this list of files to a apps.txt on your desktop to install these with Brew on MacOS:
 
@@ -279,12 +278,9 @@ You can install *most of* these either by searching them with the Brew Extension
 discord
 gimp
 vlc
-keka
 readdle-spark
-microsoft-teams
-arc
+slack
 raycast
-itsycal
 git
 alt-tab
 ```
