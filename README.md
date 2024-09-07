@@ -37,12 +37,10 @@ I got a 2023 MacBook Pro from work and the specs are as follows:
 ### Basic Apps
 This is a quick list of the apps I use on my Mac.
 
-- GitHub Desktop
-- Safari
-  - I don't like Arc because you can't open separate windows for things so using multiple monitors is a no-go with it. Chrome harvests too much data and uses too much RAM so I use Safari.
-- Apple Mail / Spark
-  - I haven't decided on which one I want to use so for now, I am using both.
-- Apple Notes for Notes
+- Safari & Arc
+  - I use Vinegar in Safari to block ads in YouTube and sometimes get annoyed that you can't have individual windows easily in Arc so I swap back and forth.
+- Apple Mail 
+- Apple Notes & Obsidian for Notes
 - WP Engine Local to keep our sites up-to-date.
 - Trello for work tasks and notes as well as personal projects. I use the free version as there is nothing in premium that is necessary for me since I don't share.
 - AirTable for tasks that are shared at work. My employer uses AirTable to keep everything up-to-date.
@@ -51,9 +49,9 @@ This is a quick list of the apps I use on my Mac.
 - Freeform for notes while I'm learning math.
 - Apple Reminders for tasks in my personal life.
 - Apple Calendar to keep track of meetings for work.
-- Warp for a terminal replacement.
+- iTerm2 as a terminal replacement.
 - Discord for Social Media.
-- VSCode for coding.
+- JetBrains (Webstorm & PHP Storm) for IDEs.
 
 ### Homebrew / Terminal / Shell
 #### Homebrew
@@ -70,86 +68,7 @@ This will also install the xcode build tools which is needed by many other devel
 After Homebrew is done installing, we will use it to install Raycast and a few other things, which will then be used to install everything else we need.
 
 #### Terminal
-The first app I install is to replace the built in Terminal app.
-
-I prefer [Warp](https://www.warp.dev/) because:
-- You can write with an IDE-style editor
-- You can arrow up on your keyboard and see your past commands you have done in the terminal.
-- You can save commands to reuse later.
-- You can customize keybindings and launch configs.
-- It has more preloaded custom themes or you can design your own.
-- It also includes "Warp AI" to explain or debug errors. I don't use the AI but I can see how useful
-- Clickable links inside the editor.
-- Native OS Notifications
-
-We install this using a Homebrew "cask". Casks are full applications, similar to what you would install from the Mac App Store.
-
-```shell
-brew install --cask warp
-```
-
-Once installed, launch it and customized the settings/preferences to your liking. These are my preferred settings. Easiest way to pull up the settings is to press `CMD + ,` that brings up the settings in *every* app.
-
-- Appearance 
-  - Themes
-    - Sync with OS: Enabled
-    - Window Opacity: 100%
-    - Blur Radius: 1
-    - Input position: pin to the bottom (warp default)
-    - Current Prompt: Warp Prompt (default)
-    - Dim inactive panes: Disabled
-    - Compact Mode Blocks: Disabled
-    - Show Jumpt ot he bottom of block button: Enabled
-    - Terminal Font: JetBrains Mono
-    - Font Size 13
-    - Line Height 1.2
-    - Blinking cursor: Enabled
-    - Show tab indicators: Enabled
-  - Features
-    - General
-      - Shortcut screen on new tab: Enabled
-      - Copy on Select: Enabled
-      - Restore windows, tabs and panes on startup: enabled
-      - Show sticky command header: Enabled
-      - Show tooltip on click on links: Enabled
-      - Choose an editor to open file links: WebStorm
-      - Open Markdown files in Warps Markdown Viewer by Default: Enabled
-      - Show warning before quitting: Disabled
-      - Show warning before logging out: Disabled
-      - Show changelong after updates: Disabled
-    - Session
-      - Warp SSH Wrapper: Disabled
-      - Receive desktop notifications from Warp: Enabled
-        - If a command takes longer than 30 seconds to complete: Enabled
-        - If a command prompts you to enter a password: Enabled
-        - Startup shell for new sessions: `bash (/bin/bash)`
-        - Working directory for new sessions: home directory
-        - Enable reopening of closed sessions: Enabled
-          - Grace period (seconds): `60`
-      - Keys
-        - Left Option key is Meta: Disabled
-        - Right Option Key is Meta: Disabled
-        - Global hotkey: Disabled
-      - Editor
-        - Autocomplete quotes, parantheses, and brackets: Enabled
-        - Trigger Command Inspector on hover: Enabled
-        - Error underlining for commands: Enabled
-        - Syntax highlighting for commands: Enabled
-        - Open completions menu as you type: Disabled
-        - Suggest corrected commands: Enabled
-        - Expand aliases as you type: Enabled
-        - Edit commands with Vim keybindings: Disabled
-        - Show input hint text: Enabled
-        - Tab key behavior: Open completions menu
-      - Terminal
-        - Enable mouse reporting: Enabled
-        - Enable Scroll Reporting: Enabled
-        - Enable Focus Reporting: Enabled
-        - Use Audible Bell: Disabled
-        - Double-click smart selection: Enabled
-      - Workflows
-        - Show global workflows in command search (`CTRL + R`): Disabled
-
+The first app I install is to replace the built in Terminal app. I do this by installing iTerm2 as it provides me with tabs and other unique features that Apple's terminal app doesn't have built-in by default.
 
 
 ### Git Setup
@@ -178,13 +97,15 @@ When I am first setting up my Windows PC I set it up with the least amount of re
 
 ## Apps I install/use once setup
 - Browser
-  - I attempted to use [Arc](https://appseeker.org/dudethatserin/Arc-9ccf1de38481400e9aeab18fc33d3ebc?pvs=25) but I couldn't get logged in/registered and their discord server was no help. They never contacted me back via support either. So, while I use Arc on my Mac... On Windows, I use [Google Chrome](https://appseeker.org/dudethatserin/Chrome-805361ee66f64cb9a1208bbaafc4b2b7?pvs=25) since it is easy to install and it doesn't chew up RAM as much as [Microsoft Edge](https://appseeker.org/dudethatserin/Edge-2bef5ebf82974be9b562fd3472a7e6e5?pvs=25) did on my PC.
+  - While I use Arc & Safari on my Mac... On Windows, I use Google Chrome since it is easy to install and it doesn't chew up RAM as much as Microsoft Edge did on my PC (which is ironic).
 - Shell
   - Powershell
 - Misc
   - Steam to play Palworld & Age of Empires IV.
   - ShareX for screenshots
-  - Spark for Email
+  - JetBrains (PHP Storm & Webstorm) for IDEs.
+  - Obsidian for Notes
+  - PowerToys for extra customizations.
 
 I don't do much customization on my Windows PC.
 
@@ -251,26 +172,22 @@ These are the extensions I have and use (that are not built into Raycast):
 - Color Picker -> Pick and organize colors, everywhere on your Mac.
 - Create Quick Event -> Allows me to use natural language to create a new event in my calendar.
 - Google Search -> Allows me to do a Google Search in the menu bar.
-- Pomodoro -> This is a way for me to have Pomo timers in my menu bar.
 - Kill Process -> Allows me to kill processes that may be stuck on my computer.
 - Remove Paywall -> Allows me to remove paywalls from links.
 - Safari -> Allows me to see all of my tabs open in Safari as well as my Reading List and History.
 - Tailwind CSS -> I use Tailwind CSS at work and this makes it easy to look up items.
 - System Monitor -> Just what the name is.
 - Speedtest
-- Warp -> Allows me to see my warp tabs/windows.
 - Timers - Allows me to set timers. I use this for the Pomodoro technique which I don't use often but I use it when my ADHD gets really bad.
+- Harvest - allows me to start and stop my arvest timers from Raycast.
 
 ### Other Apps
 - [Discord](https://discord.com)
-- [Spark](https://sparkmailapp.com/) -> I use the free version to easiliy sync my emails between devices. Works better than Outlook and just as good as [Newton Mail](https://newtonhq.com/) used to when they actually supported their app. I prefer Newton Mail for the read receipts but I can't justify paying $50/year for something that is barely supported. I mean just look at their "[Community](https://community.newtonhq.com/)". It is sad.
 - [GIMP](https://gimp.org) -> This is a free alternative to photoshop. I don't use it often but when I need it, I have it.
-- Visual Studio Code -> I use VSCodium as it is the same thing without Microsoft's tracking.
-- [Visual Studio](https://visualstudio.microsoft.com) -> I use this for my backend programming.
 - [VLC](https://videolan.org) -> I use VLC to watch videos instead of the built-in Quick Time or Windows Media Player.
 - [7-Zip](https://7-zip.org) for Windows & [keka](https://keka.io/en) for Mac -> Both allow me to unzip 7-Zip files as well as RAR files and other types as well.
 - Slack -> For work messaging
-- Safari on Mac & Google Chrome on Windows.
+- Obsidian -> For notes & project management.
 
 You can install *most of* these either by searching them with the Brew Extension or by adding this list of files to a apps.txt on your desktop to install these with Brew on MacOS:
 
@@ -278,11 +195,12 @@ You can install *most of* these either by searching them with the Brew Extension
 discord
 gimp
 vlc
-readdle-spark
 slack
 raycast
 git
 alt-tab
+obsidian
+keka
 ```
 
 Any apps not listed above cannot be installed with Brew and have to be downloaded from their websites.
@@ -395,3 +313,33 @@ There are a few global node modules I use a lot:
 ```
 npm install -g lite-server license gitignore
 ```
+
+## Terminal Setup
+These are aliases I use in the terminal (almost) daily so I set it up on every device. First this is how I set up these aliases..
+
+### Windows/Linux
+1. `sudo nano ~/.bash_profile`
+2. `alias NAME=COMMAND`
+### Mac
+1. `sudo nano ~/.zshrc`
+2. `alias NAME=COMMAND`
+
+## Aliases
+These are the aliases I use:
+```ssh
+alias y="yarn install"
+alias yb="yarn build"
+alias rm="rm -rf "
+alias theme="cd wp-content/themes && ls"
+alias rmnm="rm -rf node_modules"
+alias gcp="git commit -m "Macbook Update" && git push && git pull"
+alias gp="git pull"
+alias gc="git commit -m "Mac Update""
+alias gpu="git push"
+alias gaa="git add ."
+alias ga="git add"
+alias gac="git add . && git commit -m "Mac Update""
+alias cc="wp acorn view:cache"
+alias ali="sudo nano ~/.zshrc"
+```
+I update the last one depending on the OS I am on and keep it so I can easily add/remove aliases as I go. I try to keep my terminal simple as the more crazy it is the more distracting it is. Also, I don't use the terminal on a daily basis. I mostly use the one built into PHPStorm. So, I don't need anything crazy.
