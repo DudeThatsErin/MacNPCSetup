@@ -18,11 +18,7 @@ My husband has a custom-built PC that I will be adopting when he upgrades. When 
 - 3TB M.2 SSDs
 
 ### Mac
-I got a 2023 MacBook Pro from work and the specs are as follows:
-- Apple M3 Max Chip
-- 16" Retina Display
-- 36GB RAM
-- 1TB M.2 SSD
+I don' thave a Mac currently but I have used on for work so everything described here is everything I have used as a Full Stack Software Engineer when I had a Mac.
 
 ### Peripherals
 - [Logitech MX Craft Keyboard](https://www.logitech.com/en-us/products/keyboards/craft.920-008484.html)
