@@ -40,18 +40,13 @@ This is a quick list of the apps I use on my Mac.
 - Safari & Arc
   - I use Vinegar in Safari to block ads in YouTube and sometimes get annoyed that you can't have individual windows easily in Arc so I swap back and forth.
 - Apple Mail 
-- Apple Notes & Obsidian for Notes
-- WP Engine Local to keep our sites up-to-date.
-- Trello for work tasks and notes as well as personal projects. I use the free version as there is nothing in premium that is necessary for me since I don't share.
-- AirTable for tasks that are shared at work. My employer uses AirTable to keep everything up-to-date.
-- Harvest to keep track of time spent on work projects for billing purposes.
+- Obsidian for Notes & Project Management
 - Raycast as this is my spotlight app of choice.
-- Freeform for notes while I'm learning math.
-- Apple Reminders for tasks in my personal life.
-- Apple Calendar to keep track of meetings for work.
+- Apple Reminders for tasks in my personal life and work life.
+- Apple Calendar to keep track of events.
 - iTerm2 as a terminal replacement.
 - Discord for Social Media.
-- JetBrains (Webstorm & PHP Storm) for IDEs.
+- VSCode.
 
 ### Homebrew / Terminal / Shell
 #### Homebrew
@@ -97,15 +92,16 @@ When I am first setting up my Windows PC I set it up with the least amount of re
 
 ## Apps I install/use once setup
 - Browser
-  - While I use Arc & Safari on my Mac... On Windows, I use Google Chrome since it is easy to install and it doesn't chew up RAM as much as Microsoft Edge did on my PC (which is ironic).
+  - FireFox
 - Shell
   - Powershell
 - Misc
-  - Steam to play Palworld & Age of Empires IV.
-  - ShareX for screenshots
-  - JetBrains (PHP Storm & Webstorm) for IDEs.
+  - Steam
+  - ShareX
+  - VSCode
   - Obsidian for Notes
-  - PowerToys for extra customizations.
+  - PowerToys
+  - Spark Email
 
 I don't do much customization on my Windows PC.
 
@@ -163,7 +159,6 @@ If you type in `extenisons` into the search you can see all of your extenions an
 
 These are the extensions I have and use (that are not built into Raycast):
 
-- Apple Notes -> Search & Create notes within Apple Notes.
 - Apple Reminders -> Manage Apple Reminders: Create Reminders, see Reminders in your Menu Bar and more.
 - Brew -> Search and install Homebrew formulae.
   - Make sure to go into settings and enable the "Remove all files associated with a cask" that way extra files don't get leftover when you uninstall apps/casks.
@@ -175,19 +170,15 @@ These are the extensions I have and use (that are not built into Raycast):
 - Kill Process -> Allows me to kill processes that may be stuck on my computer.
 - Remove Paywall -> Allows me to remove paywalls from links.
 - Safari -> Allows me to see all of my tabs open in Safari as well as my Reading List and History.
-- Tailwind CSS -> I use Tailwind CSS at work and this makes it easy to look up items.
-- System Monitor -> Just what the name is.
-- Speedtest
 - Timers - Allows me to set timers. I use this for the Pomodoro technique which I don't use often but I use it when my ADHD gets really bad.
-- Harvest - allows me to start and stop my arvest timers from Raycast.
 
 ### Other Apps
 - [Discord](https://discord.com)
 - [GIMP](https://gimp.org) -> This is a free alternative to photoshop. I don't use it often but when I need it, I have it.
 - [VLC](https://videolan.org) -> I use VLC to watch videos instead of the built-in Quick Time or Windows Media Player.
 - [7-Zip](https://7-zip.org) for Windows & [keka](https://keka.io/en) for Mac -> Both allow me to unzip 7-Zip files as well as RAR files and other types as well.
-- Slack -> For work messaging
 - Obsidian -> For notes & project management.
+- Notion
 
 You can install *most of* these either by searching them with the Brew Extension or by adding this list of files to a apps.txt on your desktop to install these with Brew on MacOS:
 
@@ -195,12 +186,13 @@ You can install *most of* these either by searching them with the Brew Extension
 discord
 gimp
 vlc
-slack
 raycast
 git
 alt-tab
 obsidian
 keka
+notion
+spark-email
 ```
 
 Any apps not listed above cannot be installed with Brew and have to be downloaded from their websites.
@@ -325,21 +317,17 @@ These are aliases I use in the terminal (almost) daily so I set it up on every d
 2. `alias NAME=COMMAND`
 
 ## Aliases
-These are the aliases I use:
+These are the aliases I use on both Mac & Windows:
 ```ssh
-alias y="yarn install"
-alias yb="yarn build"
 alias rm="rm -rf "
-alias theme="cd wp-content/themes && ls"
 alias rmnm="rm -rf node_modules"
-alias gcp="git commit -m "Macbook Update" && git push && git pull"
+alias gcp="git commit -m "Erin's Latest Updates" && git push && git pull"
 alias gp="git pull"
-alias gc="git commit -m "Mac Update""
+alias gc="git commit -m
 alias gpu="git push"
 alias gaa="git add ."
 alias ga="git add"
-alias gac="git add . && git commit -m "Mac Update""
-alias cc="wp acorn view:cache"
+alias gac="git add . && git commit -m
 alias ali="sudo nano ~/.zshrc"
 ```
 I update the last one depending on the OS I am on and keep it so I can easily add/remove aliases as I go. I try to keep my terminal simple as the more crazy it is the more distracting it is. Also, I don't use the terminal on a daily basis. I mostly use the one built into PHPStorm. So, I don't need anything crazy.
