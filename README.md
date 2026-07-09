@@ -2,7 +2,7 @@
 
 For my complete, detailed development setup including hardware specs, software recommendations, productivity apps, terminal configurations, and more, please visit my comprehensive blog post:
 
-**[Mac & PC Setup Guide](https://techbyerin.com/mac-pc-setup/)**
+**[Mac & PC Setup Guide](https://blog.erinskidds.com/mac-pc-setup/)**
 
 This blog post covers everything from:
 - **Hardware specifications** (current and planned upgrades)
@@ -16,8 +16,8 @@ This blog post covers everything from:
 
 ## 🔗 Quick Links
 
-- **Main Blog:** [techbyerin.com](https://techbyerin.com)
-- **Setup Guide:** [Mac & PC Setup Guide](https://techbyerin.com/mac-pc-setup/)
+- **Main Blog:** [blog.erinskidds.com](https://blog.erinskidds.com)
+- **Setup Guide:** [Mac & PC Setup Guide](https://blog.erinskidds.com/mac-pc-setup/)
 
 ---
 
